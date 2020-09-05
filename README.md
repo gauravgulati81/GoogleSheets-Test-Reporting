@@ -15,7 +15,7 @@ dependencies {
 }
 ```
 2. Navigate to https://developers.google.com/sheets/api/quickstart/java and enable google sheets API. Download the credentials.json generated to src/main/resources/ directory in the project.
-3. Esure that the sharing permission of the target test report in google sheets is set to "Anyone on the internet with this link can edit".
+3. Ensure that the sharing permission of the target test report in google sheets is set to "Anyone on the internet with this link can edit".
 ![](images/google_testReport_permission.png)
 4. From this repository, download and copy the files "Params.java" and "GoogleReport.java" into the project directory.
 5. Edit the constant values Params.java class carefully, as per the target test report. (Note: Value of SPREADSHEETID can be found in the google sheets url e.g. https://docs.google.com/spreadsheets/d/**SPREADSHEETID**/edit#gid=0)
