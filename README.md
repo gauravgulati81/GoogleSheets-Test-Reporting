@@ -31,7 +31,7 @@ import java.security.GeneralSecurityException;
 public class TestSuite {
 	GoogleReport googleReportObject = new GoogleReport();
 
-	public testCase1 throws IOException, GeneralSecurityException {
+	public testCase1() throws IOException, GeneralSecurityException {
 		if (TestCondition == TRUE) {
 			googleReportObject.updateReport("TC001", "PASS");
 		} else {
